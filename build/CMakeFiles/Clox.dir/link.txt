@@ -1,0 +1,3 @@
+D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\Clox.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\ar.exe qc CMakeFiles\Clox.dir/objects.a @CMakeFiles\Clox.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\X8EAA8~1.EXE -g -Wl,--whole-archive CMakeFiles\Clox.dir/objects.a -Wl,--no-whole-archive -o Clox.exe -Wl,--out-implib,libClox.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Clox.dir\linklibs.rsp

@@ -1,0 +1,3 @@
+C:/Users/11577/Desktop/interpreter/build/CMakeFiles/Clox.dir
+C:/Users/11577/Desktop/interpreter/build/CMakeFiles/edit_cache.dir
+C:/Users/11577/Desktop/interpreter/build/CMakeFiles/rebuild_cache.dir
