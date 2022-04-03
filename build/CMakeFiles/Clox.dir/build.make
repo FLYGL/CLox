@@ -98,11 +98,26 @@ CMakeFiles/Clox.dir/src/chunk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Clox.dir/src/chunk.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\X8EAA8~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\11577\Desktop\interpreter\src\chunk.c -o CMakeFiles\Clox.dir\src\chunk.c.s
 
+CMakeFiles/Clox.dir/src/debug.c.obj: CMakeFiles/Clox.dir/flags.make
+CMakeFiles/Clox.dir/src/debug.c.obj: CMakeFiles/Clox.dir/includes_C.rsp
+CMakeFiles/Clox.dir/src/debug.c.obj: ../src/debug.c
+CMakeFiles/Clox.dir/src/debug.c.obj: CMakeFiles/Clox.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\11577\Desktop\interpreter\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Clox.dir/src/debug.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\X8EAA8~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Clox.dir/src/debug.c.obj -MF CMakeFiles\Clox.dir\src\debug.c.obj.d -o CMakeFiles\Clox.dir\src\debug.c.obj -c C:\Users\11577\Desktop\interpreter\src\debug.c
+
+CMakeFiles/Clox.dir/src/debug.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Clox.dir/src/debug.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\X8EAA8~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\11577\Desktop\interpreter\src\debug.c > CMakeFiles\Clox.dir\src\debug.c.i
+
+CMakeFiles/Clox.dir/src/debug.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Clox.dir/src/debug.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\X8EAA8~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\11577\Desktop\interpreter\src\debug.c -o CMakeFiles\Clox.dir\src\debug.c.s
+
 CMakeFiles/Clox.dir/src/memory.c.obj: CMakeFiles/Clox.dir/flags.make
 CMakeFiles/Clox.dir/src/memory.c.obj: CMakeFiles/Clox.dir/includes_C.rsp
 CMakeFiles/Clox.dir/src/memory.c.obj: ../src/memory.c
 CMakeFiles/Clox.dir/src/memory.c.obj: CMakeFiles/Clox.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\11577\Desktop\interpreter\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Clox.dir/src/memory.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\11577\Desktop\interpreter\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Clox.dir/src/memory.c.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\X8EAA8~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Clox.dir/src/memory.c.obj -MF CMakeFiles\Clox.dir\src\memory.c.obj.d -o CMakeFiles\Clox.dir\src\memory.c.obj -c C:\Users\11577\Desktop\interpreter\src\memory.c
 
 CMakeFiles/Clox.dir/src/memory.c.i: cmake_force
@@ -113,23 +128,42 @@ CMakeFiles/Clox.dir/src/memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Clox.dir/src/memory.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\X8EAA8~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\11577\Desktop\interpreter\src\memory.c -o CMakeFiles\Clox.dir\src\memory.c.s
 
+CMakeFiles/Clox.dir/src/value.c.obj: CMakeFiles/Clox.dir/flags.make
+CMakeFiles/Clox.dir/src/value.c.obj: CMakeFiles/Clox.dir/includes_C.rsp
+CMakeFiles/Clox.dir/src/value.c.obj: ../src/value.c
+CMakeFiles/Clox.dir/src/value.c.obj: CMakeFiles/Clox.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\11577\Desktop\interpreter\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Clox.dir/src/value.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\X8EAA8~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Clox.dir/src/value.c.obj -MF CMakeFiles\Clox.dir\src\value.c.obj.d -o CMakeFiles\Clox.dir\src\value.c.obj -c C:\Users\11577\Desktop\interpreter\src\value.c
+
+CMakeFiles/Clox.dir/src/value.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Clox.dir/src/value.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\X8EAA8~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\11577\Desktop\interpreter\src\value.c > CMakeFiles\Clox.dir\src\value.c.i
+
+CMakeFiles/Clox.dir/src/value.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Clox.dir/src/value.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\X8EAA8~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\11577\Desktop\interpreter\src\value.c -o CMakeFiles\Clox.dir\src\value.c.s
+
 # Object files for target Clox
 Clox_OBJECTS = \
 "CMakeFiles/Clox.dir/main.c.obj" \
 "CMakeFiles/Clox.dir/src/chunk.c.obj" \
-"CMakeFiles/Clox.dir/src/memory.c.obj"
+"CMakeFiles/Clox.dir/src/debug.c.obj" \
+"CMakeFiles/Clox.dir/src/memory.c.obj" \
+"CMakeFiles/Clox.dir/src/value.c.obj"
 
 # External object files for target Clox
 Clox_EXTERNAL_OBJECTS =
 
 Clox.exe: CMakeFiles/Clox.dir/main.c.obj
 Clox.exe: CMakeFiles/Clox.dir/src/chunk.c.obj
+Clox.exe: CMakeFiles/Clox.dir/src/debug.c.obj
 Clox.exe: CMakeFiles/Clox.dir/src/memory.c.obj
+Clox.exe: CMakeFiles/Clox.dir/src/value.c.obj
 Clox.exe: CMakeFiles/Clox.dir/build.make
 Clox.exe: CMakeFiles/Clox.dir/linklibs.rsp
 Clox.exe: CMakeFiles/Clox.dir/objects1.rsp
 Clox.exe: CMakeFiles/Clox.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\11577\Desktop\interpreter\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Clox.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\11577\Desktop\interpreter\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable Clox.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Clox.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

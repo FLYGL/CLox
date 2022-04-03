@@ -176,6 +176,30 @@ src/chunk.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clox.dir\build.make CMakeFiles/Clox.dir/src/chunk.c.s
 .PHONY : src/chunk.c.s
 
+src/debug.obj: src/debug.c.obj
+.PHONY : src/debug.obj
+
+# target to build an object file
+src/debug.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clox.dir\build.make CMakeFiles/Clox.dir/src/debug.c.obj
+.PHONY : src/debug.c.obj
+
+src/debug.i: src/debug.c.i
+.PHONY : src/debug.i
+
+# target to preprocess a source file
+src/debug.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clox.dir\build.make CMakeFiles/Clox.dir/src/debug.c.i
+.PHONY : src/debug.c.i
+
+src/debug.s: src/debug.c.s
+.PHONY : src/debug.s
+
+# target to generate assembly for a file
+src/debug.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clox.dir\build.make CMakeFiles/Clox.dir/src/debug.c.s
+.PHONY : src/debug.c.s
+
 src/memory.obj: src/memory.c.obj
 .PHONY : src/memory.obj
 
@@ -200,6 +224,30 @@ src/memory.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clox.dir\build.make CMakeFiles/Clox.dir/src/memory.c.s
 .PHONY : src/memory.c.s
 
+src/value.obj: src/value.c.obj
+.PHONY : src/value.obj
+
+# target to build an object file
+src/value.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clox.dir\build.make CMakeFiles/Clox.dir/src/value.c.obj
+.PHONY : src/value.c.obj
+
+src/value.i: src/value.c.i
+.PHONY : src/value.i
+
+# target to preprocess a source file
+src/value.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clox.dir\build.make CMakeFiles/Clox.dir/src/value.c.i
+.PHONY : src/value.c.i
+
+src/value.s: src/value.c.s
+.PHONY : src/value.s
+
+# target to generate assembly for a file
+src/value.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clox.dir\build.make CMakeFiles/Clox.dir/src/value.c.s
+.PHONY : src/value.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -215,9 +263,15 @@ help:
 	@echo ... src/chunk.obj
 	@echo ... src/chunk.i
 	@echo ... src/chunk.s
+	@echo ... src/debug.obj
+	@echo ... src/debug.i
+	@echo ... src/debug.s
 	@echo ... src/memory.obj
 	@echo ... src/memory.i
 	@echo ... src/memory.s
+	@echo ... src/value.obj
+	@echo ... src/value.i
+	@echo ... src/value.s
 .PHONY : help
 
 
