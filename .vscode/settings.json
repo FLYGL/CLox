@@ -3,7 +3,9 @@
         "stdbool.h": "c",
         "stddef.h": "c",
         "stdint.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "common.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

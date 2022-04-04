@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Clox.dir/src/memory.c.obj.d"
   "CMakeFiles/Clox.dir/src/value.c.obj"
   "CMakeFiles/Clox.dir/src/value.c.obj.d"
+  "CMakeFiles/Clox.dir/src/vm.c.obj"
+  "CMakeFiles/Clox.dir/src/vm.c.obj.d"
   "Clox.exe"
   "Clox.exe.manifest"
   "Clox.pdb"

@@ -12,6 +12,11 @@
 
 typedef enum{
     OP_CONSTANT,// 加载常数 opcode+constant index
+    OP_ADD,
+    OP_SUBTRACT,
+    OP_MULTIPLY,
+    OP_DIVIDE,
+    OP_NEGATE,  // unary 
     OP_RETURN,
 } OpCode;
 

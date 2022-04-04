@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/11577/Desktop/interpreter/src/debug.c" "CMakeFiles/Clox.dir/src/debug.c.obj" "gcc" "CMakeFiles/Clox.dir/src/debug.c.obj.d"
   "C:/Users/11577/Desktop/interpreter/src/memory.c" "CMakeFiles/Clox.dir/src/memory.c.obj" "gcc" "CMakeFiles/Clox.dir/src/memory.c.obj.d"
   "C:/Users/11577/Desktop/interpreter/src/value.c" "CMakeFiles/Clox.dir/src/value.c.obj" "gcc" "CMakeFiles/Clox.dir/src/value.c.obj.d"
+  "C:/Users/11577/Desktop/interpreter/src/vm.c" "CMakeFiles/Clox.dir/src/vm.c.obj" "gcc" "CMakeFiles/Clox.dir/src/vm.c.obj.d"
   )
 
 # Targets to which this target links.

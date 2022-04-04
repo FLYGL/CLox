@@ -23,5 +23,10 @@
   "directory": "C:/Users/11577/Desktop/interpreter/build",
   "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/Clox.dir/includes_C.rsp -g -o CMakeFiles\\Clox.dir\\src\\value.c.obj -c C:\\Users\\11577\\Desktop\\interpreter\\src\\value.c",
   "file": "C:/Users/11577/Desktop/interpreter/src/value.c"
+},
+{
+  "directory": "C:/Users/11577/Desktop/interpreter/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/Clox.dir/includes_C.rsp -g -o CMakeFiles\\Clox.dir\\src\\vm.c.obj -c C:\\Users\\11577\\Desktop\\interpreter\\src\\vm.c",
+  "file": "C:/Users/11577/Desktop/interpreter/src/vm.c"
 }
 ]
