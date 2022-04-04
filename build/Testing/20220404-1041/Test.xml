@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20220404-1041-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.22.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="DESKTOP-4QPDHTK"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19044)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="1"
+	ProcessorCacheSize="64"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="17295"
+	TotalPhysicalMemory="16271"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3593"
+	>
+	<Testing>
+		<StartDateTime>Apr 04 18:51 ?D1[NON-UTF-8-BYTE-0xA8][NON-UTF-8-BYTE-0xB2][NON-UTF-8-BYTE-0xA1][NON-UTF-8-BYTE-0xC0][NON-UTF-8-BYTE-0xA8][NON-UTF-8-BYTE-0xBA][NON-UTF-8-BYTE-0xA1][NON-UTF-8-BYTE-0xC1]?[NON-UTF-8-BYTE-0xA8][NON-UTF-8-BYTE-0xBA][NON-UTF-8-BYTE-0xA1][NON-UTF-8-BYTE-0xC0]??</StartDateTime>
+		<StartTestTime>1649069499</StartTestTime>
+		<TestList>
+			<Test>./Run_testSource</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>Run_testSource</Name>
+			<Path>.</Path>
+			<FullName>./Run_testSource</FullName>
+			<FullCommandLine>C:\Users\11577\Desktop\interpreter\build\Clox.exe "C:/Users/11577/Desktop/interpreter/test/test.clox"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0042197</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Users\11577\Desktop\interpreter\build\Clox.exe "C:/Users/11577/Desktop/interpreter/test/test.clox"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJx1j8EKgkAURfd+xUGEtwgiHYki+ot+YMpZDE2j6FSE+u+ZGATa7t63OO9cIEVtkYeuJQI60j1S1NZfv10hxylnGyQ+GR1PnR1yGHO2QGmCMdUSJUXyGUEtEC5l6f4AshkgRw33alAPv7pJO67peVrnOBtqo4sX1pO0oyErPn96btbfg2nW83UdarCR6A2kOENW====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Apr 04 18:51 ?D1[NON-UTF-8-BYTE-0xA8][NON-UTF-8-BYTE-0xB2][NON-UTF-8-BYTE-0xA1][NON-UTF-8-BYTE-0xC0][NON-UTF-8-BYTE-0xA8][NON-UTF-8-BYTE-0xBA][NON-UTF-8-BYTE-0xA1][NON-UTF-8-BYTE-0xC1]?[NON-UTF-8-BYTE-0xA8][NON-UTF-8-BYTE-0xBA][NON-UTF-8-BYTE-0xA1][NON-UTF-8-BYTE-0xC0]??</EndDateTime>
+		<EndTestTime>1649069499</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

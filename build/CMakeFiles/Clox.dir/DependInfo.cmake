@@ -10,8 +10,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/11577/Desktop/interpreter/main.c" "CMakeFiles/Clox.dir/main.c.obj" "gcc" "CMakeFiles/Clox.dir/main.c.obj.d"
   "C:/Users/11577/Desktop/interpreter/src/chunk.c" "CMakeFiles/Clox.dir/src/chunk.c.obj" "gcc" "CMakeFiles/Clox.dir/src/chunk.c.obj.d"
+  "C:/Users/11577/Desktop/interpreter/src/compile.c" "CMakeFiles/Clox.dir/src/compile.c.obj" "gcc" "CMakeFiles/Clox.dir/src/compile.c.obj.d"
   "C:/Users/11577/Desktop/interpreter/src/debug.c" "CMakeFiles/Clox.dir/src/debug.c.obj" "gcc" "CMakeFiles/Clox.dir/src/debug.c.obj.d"
   "C:/Users/11577/Desktop/interpreter/src/memory.c" "CMakeFiles/Clox.dir/src/memory.c.obj" "gcc" "CMakeFiles/Clox.dir/src/memory.c.obj.d"
+  "C:/Users/11577/Desktop/interpreter/src/scanner.c" "CMakeFiles/Clox.dir/src/scanner.c.obj" "gcc" "CMakeFiles/Clox.dir/src/scanner.c.obj.d"
   "C:/Users/11577/Desktop/interpreter/src/value.c" "CMakeFiles/Clox.dir/src/value.c.obj" "gcc" "CMakeFiles/Clox.dir/src/value.c.obj.d"
   "C:/Users/11577/Desktop/interpreter/src/vm.c" "CMakeFiles/Clox.dir/src/vm.c.obj" "gcc" "CMakeFiles/Clox.dir/src/vm.c.obj.d"
   )

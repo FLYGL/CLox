@@ -3,6 +3,7 @@
 #include "vm.h"
 #include "value.h"
 #include "debug.h"
+#include "compile.h"
 VM vm;
 static void resetStack(){
     vm.stackTop = vm.stack;
@@ -78,8 +79,7 @@ static InterpretResult run(){
 #undef READ_CONSTANT
 #undef BINARY_OP
 }
-InterpretResult interpret(Chunk* chunk){
-    vm.chunk = chunk;
-    vm.ip = vm.chunk->code;
-    return run();
+InterpretResult interpret(const char* source){
+    compile(source);
+    return INTERPRET_OK;
 }

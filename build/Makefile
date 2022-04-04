@@ -64,6 +64,16 @@ CMAKE_BINARY_DIR = C:\Users\11577\Desktop\interpreter\build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	D:\CMake\bin\ctest.exe --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -176,6 +186,30 @@ src/chunk.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clox.dir\build.make CMakeFiles/Clox.dir/src/chunk.c.s
 .PHONY : src/chunk.c.s
 
+src/compile.obj: src/compile.c.obj
+.PHONY : src/compile.obj
+
+# target to build an object file
+src/compile.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clox.dir\build.make CMakeFiles/Clox.dir/src/compile.c.obj
+.PHONY : src/compile.c.obj
+
+src/compile.i: src/compile.c.i
+.PHONY : src/compile.i
+
+# target to preprocess a source file
+src/compile.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clox.dir\build.make CMakeFiles/Clox.dir/src/compile.c.i
+.PHONY : src/compile.c.i
+
+src/compile.s: src/compile.c.s
+.PHONY : src/compile.s
+
+# target to generate assembly for a file
+src/compile.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clox.dir\build.make CMakeFiles/Clox.dir/src/compile.c.s
+.PHONY : src/compile.c.s
+
 src/debug.obj: src/debug.c.obj
 .PHONY : src/debug.obj
 
@@ -223,6 +257,30 @@ src/memory.s: src/memory.c.s
 src/memory.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clox.dir\build.make CMakeFiles/Clox.dir/src/memory.c.s
 .PHONY : src/memory.c.s
+
+src/scanner.obj: src/scanner.c.obj
+.PHONY : src/scanner.obj
+
+# target to build an object file
+src/scanner.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clox.dir\build.make CMakeFiles/Clox.dir/src/scanner.c.obj
+.PHONY : src/scanner.c.obj
+
+src/scanner.i: src/scanner.c.i
+.PHONY : src/scanner.i
+
+# target to preprocess a source file
+src/scanner.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clox.dir\build.make CMakeFiles/Clox.dir/src/scanner.c.i
+.PHONY : src/scanner.c.i
+
+src/scanner.s: src/scanner.c.s
+.PHONY : src/scanner.s
+
+# target to generate assembly for a file
+src/scanner.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clox.dir\build.make CMakeFiles/Clox.dir/src/scanner.c.s
+.PHONY : src/scanner.c.s
 
 src/value.obj: src/value.c.obj
 .PHONY : src/value.obj
@@ -280,6 +338,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... test
 	@echo ... Clox
 	@echo ... main.obj
 	@echo ... main.i
@@ -287,12 +346,18 @@ help:
 	@echo ... src/chunk.obj
 	@echo ... src/chunk.i
 	@echo ... src/chunk.s
+	@echo ... src/compile.obj
+	@echo ... src/compile.i
+	@echo ... src/compile.s
 	@echo ... src/debug.obj
 	@echo ... src/debug.i
 	@echo ... src/debug.s
 	@echo ... src/memory.obj
 	@echo ... src/memory.i
 	@echo ... src/memory.s
+	@echo ... src/scanner.obj
+	@echo ... src/scanner.i
+	@echo ... src/scanner.s
 	@echo ... src/value.obj
 	@echo ... src/value.i
 	@echo ... src/value.s

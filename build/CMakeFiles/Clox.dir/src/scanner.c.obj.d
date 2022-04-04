@@ -1,4 +1,5 @@
-CMakeFiles/Clox.dir/main.c.obj: C:\Users\11577\Desktop\interpreter\main.c \
+CMakeFiles/Clox.dir/src/scanner.c.obj: \
+ C:\Users\11577\Desktop\interpreter\src\scanner.c \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/stdio.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/_mingw.h \
@@ -12,12 +13,6 @@ CMakeFiles/Clox.dir/main.c.obj: C:\Users\11577\Desktop\interpreter\main.c \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
- C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/stdlib.h \
- C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
- C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
- C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/limits.h \
- C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
- C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/malloc.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/string.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
  C:/Users/11577/Desktop/interpreter/head/common.h \
@@ -26,7 +21,4 @@ CMakeFiles/Clox.dir/main.c.obj: C:\Users\11577\Desktop\interpreter\main.c \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/stddef.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/stdint.h \
- C:/Users/11577/Desktop/interpreter/head/vm.h \
- C:/Users/11577/Desktop/interpreter/head/chunk.h \
- C:/Users/11577/Desktop/interpreter/head/common.h \
- C:/Users/11577/Desktop/interpreter/head/value.h
+ C:/Users/11577/Desktop/interpreter/head/scanner.h
