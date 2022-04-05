@@ -1,4 +1,1 @@
-var drink = "Tea";
-var steep = 4;
-var cool = 2;
-print "${drink} will be ready in ${steep + cool} minutes.";
+1+1*3-4

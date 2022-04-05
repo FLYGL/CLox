@@ -25,4 +25,5 @@ CMakeFiles/Clox.dir/src/vm.c.obj: \
  C:/Users/11577/Desktop/interpreter/head/value.h \
  C:/Users/11577/Desktop/interpreter/head/value.h \
  C:/Users/11577/Desktop/interpreter/head/debug.h \
- C:/Users/11577/Desktop/interpreter/head/compile.h
+ C:/Users/11577/Desktop/interpreter/head/compile.h \
+ C:/Users/11577/Desktop/interpreter/head/vm.h

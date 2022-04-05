@@ -50,7 +50,9 @@ static InterpretResult run(){
         push(a op b);     \
     }while(false)
 
-
+#ifdef DEBUG_TRACE_EXECUTION
+        printf("== start Run ==\n");
+#endif
     for(;;){
         uint8_t instruction;
 #ifdef DEBUG_TRACE_EXECUTION
@@ -80,6 +82,15 @@ static InterpretResult run(){
 #undef BINARY_OP
 }
 InterpretResult interpret(const char* source){
-    compile(source);
-    return INTERPRET_OK;
+    Chunk chunk;
+    initChunk(&chunk);
+    if(!compile(source,&chunk)){
+        freeChunk(&chunk);
+        return INTERPRET_COMPILE_ERROR;
+    }
+    vm.chunk = &chunk;
+    vm.ip = vm.chunk->code;
+    InterpretResult result = run();
+    freeChunk(&chunk);
+    return result;
 }
