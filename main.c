@@ -8,7 +8,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include "common.h"
-
 #include "vm.h"
 void Test();
 static void repl(){

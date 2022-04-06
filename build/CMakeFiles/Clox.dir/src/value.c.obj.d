@@ -13,6 +13,8 @@ CMakeFiles/Clox.dir/src/value.c.obj: \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/string.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
  C:/Users/11577/Desktop/interpreter/head/memory.h \
  C:/Users/11577/Desktop/interpreter/head/common.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdbool.h \
@@ -20,4 +22,6 @@ CMakeFiles/Clox.dir/src/value.c.obj: \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/stddef.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/stdint.h \
+ C:/Users/11577/Desktop/interpreter/head/value.h \
+ C:/Users/11577/Desktop/interpreter/head/object.h \
  C:/Users/11577/Desktop/interpreter/head/value.h

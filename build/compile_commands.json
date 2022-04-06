@@ -26,6 +26,11 @@
 },
 {
   "directory": "C:/Users/11577/Desktop/interpreter/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/Clox.dir/includes_C.rsp -g -o CMakeFiles\\Clox.dir\\src\\object.c.obj -c C:\\Users\\11577\\Desktop\\interpreter\\src\\object.c",
+  "file": "C:/Users/11577/Desktop/interpreter/src/object.c"
+},
+{
+  "directory": "C:/Users/11577/Desktop/interpreter/build",
   "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/Clox.dir/includes_C.rsp -g -o CMakeFiles\\Clox.dir\\src\\scanner.c.obj -c C:\\Users\\11577\\Desktop\\interpreter\\src\\scanner.c",
   "file": "C:/Users/11577/Desktop/interpreter/src/scanner.c"
 },

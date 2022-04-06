@@ -6,7 +6,9 @@
         "stdlib.h": "c",
         "stdio.h": "c",
         "common.h": "c",
-        "debug.h": "c"
+        "debug.h": "c",
+        "type_traits": "cpp",
+        "scanner.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
