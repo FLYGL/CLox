@@ -1,0 +1,10 @@
+^F:\INTERPRETER\BUILD\CMAKEFILES\B2B88D67F1CDB395D2C56C7B81F54632\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/interpreter -BF:/interpreter/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/interpreter/build/Clox.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

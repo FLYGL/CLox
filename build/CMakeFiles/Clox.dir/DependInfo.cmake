@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/11577/Desktop/interpreter/src/memory.c" "CMakeFiles/Clox.dir/src/memory.c.obj" "gcc" "CMakeFiles/Clox.dir/src/memory.c.obj.d"
   "C:/Users/11577/Desktop/interpreter/src/object.c" "CMakeFiles/Clox.dir/src/object.c.obj" "gcc" "CMakeFiles/Clox.dir/src/object.c.obj.d"
   "C:/Users/11577/Desktop/interpreter/src/scanner.c" "CMakeFiles/Clox.dir/src/scanner.c.obj" "gcc" "CMakeFiles/Clox.dir/src/scanner.c.obj.d"
+  "C:/Users/11577/Desktop/interpreter/src/table.c" "CMakeFiles/Clox.dir/src/table.c.obj" "gcc" "CMakeFiles/Clox.dir/src/table.c.obj.d"
   "C:/Users/11577/Desktop/interpreter/src/value.c" "CMakeFiles/Clox.dir/src/value.c.obj" "gcc" "CMakeFiles/Clox.dir/src/value.c.obj.d"
   "C:/Users/11577/Desktop/interpreter/src/vm.c" "CMakeFiles/Clox.dir/src/vm.c.obj" "gcc" "CMakeFiles/Clox.dir/src/vm.c.obj.d"
   )
