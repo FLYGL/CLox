@@ -23,6 +23,11 @@ CMakeFiles/Clox.dir/main.c.obj: ../main.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/malloc.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/string.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/time.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
   ../head/common.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdbool.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
@@ -33,7 +38,8 @@ CMakeFiles/Clox.dir/main.c.obj: ../main.c \
   ../head/value.h \
   ../head/common.h \
   ../head/table.h \
-  ../head/chunk.h
+  ../head/chunk.h \
+  ../head/object.h
 
 CMakeFiles/Clox.dir/src/chunk.c.obj: ../src/chunk.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdlib.h \
@@ -89,13 +95,13 @@ CMakeFiles/Clox.dir/src/compile.c.obj: ../src/compile.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stddef.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  ../head/object.h \
   ../head/chunk.h \
   ../head/value.h \
   ../head/vm.h \
   ../head/table.h \
   ../head/scanner.h \
-  ../head/object.h \
-  ../head/debug.h
+  ../head/object.h
 
 CMakeFiles/Clox.dir/src/debug.c.obj: ../src/debug.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdio.h \
@@ -144,10 +150,11 @@ CMakeFiles/Clox.dir/src/memory.c.obj: ../src/memory.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdint.h \
   ../head/object.h \
+  ../head/chunk.h \
   ../head/value.h \
   ../head/vm.h \
   ../head/table.h \
-  ../head/chunk.h
+  ../head/object.h
 
 CMakeFiles/Clox.dir/src/object.c.obj: ../src/object.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdio.h \
@@ -172,12 +179,13 @@ CMakeFiles/Clox.dir/src/object.c.obj: ../src/object.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stddef.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  ../head/chunk.h \
   ../head/value.h \
   ../head/table.h \
   ../head/memory.h \
   ../head/vm.h \
   ../head/table.h \
-  ../head/chunk.h
+  ../head/object.h
 
 CMakeFiles/Clox.dir/src/scanner.c.obj: ../src/scanner.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdio.h \
@@ -227,6 +235,7 @@ CMakeFiles/Clox.dir/src/table.c.obj: ../src/table.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdint.h \
   ../head/object.h \
+  ../head/chunk.h \
   ../head/value.h \
   ../head/table.h \
   ../head/value.h
@@ -256,6 +265,7 @@ CMakeFiles/Clox.dir/src/value.c.obj: ../src/value.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdint.h \
   ../head/value.h \
   ../head/object.h \
+  ../head/chunk.h \
   ../head/value.h
 
 CMakeFiles/Clox.dir/src/vm.c.obj: ../src/vm.c \
@@ -277,6 +287,11 @@ CMakeFiles/Clox.dir/src/vm.c.obj: ../src/vm.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/string.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/time.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
   ../head/common.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdbool.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
@@ -288,6 +303,7 @@ CMakeFiles/Clox.dir/src/vm.c.obj: ../src/vm.c \
   ../head/common.h \
   ../head/table.h \
   ../head/chunk.h \
+  ../head/object.h \
   ../head/object.h \
   ../head/value.h \
   ../head/debug.h \
@@ -312,6 +328,8 @@ C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64
 C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdio.h:
 
 ../head/value.h:
+
+C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/time.h:
 
 C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h:
 
@@ -349,6 +367,18 @@ C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64
 
 C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h:
 
+../src/scanner.c:
+
+C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_timeval.h:
+
+C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sys/timeb.h:
+
+C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
+
+C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stddef.h:
+
+C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/pthread_time.h:
+
 C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h:
 
 ../head/common.h:
@@ -358,8 +388,6 @@ C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x8
 ../src/object.c:
 
 C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h:
-
-C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stddef.h:
 
 C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h:
 
@@ -381,11 +409,9 @@ C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x8
 
 ../head/scanner.h:
 
-../head/debug.h:
-
 ../src/debug.c:
 
-../src/scanner.c:
+../head/debug.h:
 
 ../src/value.c:
 

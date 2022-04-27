@@ -20,6 +20,11 @@ CMakeFiles/Clox.dir/main.c.obj: C:\Users\11577\Desktop\interpreter\main.c \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/malloc.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/string.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/time.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/_timeval.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
  C:/Users/11577/Desktop/interpreter/head/common.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdbool.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
@@ -30,4 +35,5 @@ CMakeFiles/Clox.dir/main.c.obj: C:\Users\11577\Desktop\interpreter\main.c \
  C:/Users/11577/Desktop/interpreter/head/value.h \
  C:/Users/11577/Desktop/interpreter/head/common.h \
  C:/Users/11577/Desktop/interpreter/head/table.h \
- C:/Users/11577/Desktop/interpreter/head/chunk.h
+ C:/Users/11577/Desktop/interpreter/head/chunk.h \
+ C:/Users/11577/Desktop/interpreter/head/object.h

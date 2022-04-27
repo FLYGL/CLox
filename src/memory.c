@@ -30,6 +30,18 @@ static void freeObject(Obj* object){
             FREE(ObjString,object);
             break;
         }
+        case OBJ_FUNCTION:{
+            ObjFunction* function = (ObjFunction*)object;
+            function->arity = 0;
+            // freeObject(&function->name); 由GC回收
+            freeChunk(&function->chunk);
+            FREE(ObjFunction,object);
+            break;
+        }
+        case OBJ_NATIVE:{
+            FREE(ObjNative,object);
+            break;
+        }
     }
 }
 

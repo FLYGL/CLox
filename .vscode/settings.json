@@ -8,7 +8,10 @@
         "common.h": "c",
         "debug.h": "c",
         "type_traits": "cpp",
-        "scanner.h": "c"
+        "scanner.h": "c",
+        "*.tcc": "c",
+        "cmath": "c",
+        "typeinfo": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

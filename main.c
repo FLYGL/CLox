@@ -7,8 +7,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 #include "common.h"
 #include "vm.h"
+
 void Test();
 static void repl(){
     char line[1024];
@@ -99,10 +101,18 @@ void TestPassArg(){
     printf("c address: %p\n",testInstsance.c);
     PassValue(testInstsance,&testInstsance);
 }
+int fib(int n){
+    if(n<2) return n;
+    return fib(n-2) + fib(n-1);
+}
 void Test(){
+    double start = (double)clock()/CLOCKS_PER_SEC;
+    fib(35);
+    double end = (double)clock()/CLOCKS_PER_SEC;
+    printf("\n BLTest %lf \n",end-start);
     // TestPassArg();
-    char *a = "hello";
-    char *b = "hello";
-    char c[]= "hello";
-    printf("%p %p %p",a,b,c);
+    // char *a = "hello";
+    // char *b = "hello";
+    // char c[]= "hello";
+    // printf("%p %p %p",a,b,c);
 }
