@@ -105,6 +105,7 @@ CMakeFiles/Clox.dir/src/compile.c.obj
  C:/Users/11577/Desktop/interpreter/head/table.h
  C:/Users/11577/Desktop/interpreter/head/scanner.h
  C:/Users/11577/Desktop/interpreter/head/object.h
+ C:/Users/11577/Desktop/interpreter/head/debug.h
 
 CMakeFiles/Clox.dir/src/debug.c.obj
  C:/Users/11577/Desktop/interpreter/src/debug.c
@@ -130,6 +131,7 @@ CMakeFiles/Clox.dir/src/debug.c.obj
  C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h
  C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdint.h
  C:/Users/11577/Desktop/interpreter/head/value.h
+ C:/Users/11577/Desktop/interpreter/head/object.h
  C:/Users/11577/Desktop/interpreter/head/value.h
 
 CMakeFiles/Clox.dir/src/memory.c.obj

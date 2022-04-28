@@ -1,3 +1,21 @@
-var start = clock();
-print 1;
-print clock() - start;
+fun outer1() {
+  var x = "outer1";
+  fun inner() {
+    print x;
+  }
+  return inner;
+}
+fun outer2() {
+  var x = "outer2";
+  fun inner() {
+    print x;
+  }
+  return inner;
+}
+
+var a = outer1();
+a();
+
+var b = outer2();
+
+a();

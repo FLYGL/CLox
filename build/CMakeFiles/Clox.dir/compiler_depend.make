@@ -101,7 +101,8 @@ CMakeFiles/Clox.dir/src/compile.c.obj: ../src/compile.c \
   ../head/vm.h \
   ../head/table.h \
   ../head/scanner.h \
-  ../head/object.h
+  ../head/object.h \
+  ../head/debug.h
 
 CMakeFiles/Clox.dir/src/debug.c.obj: ../src/debug.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdio.h \
@@ -126,6 +127,7 @@ CMakeFiles/Clox.dir/src/debug.c.obj: ../src/debug.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdint.h \
   ../head/value.h \
+  ../head/object.h \
   ../head/value.h
 
 CMakeFiles/Clox.dir/src/memory.c.obj: ../src/memory.c \
@@ -409,9 +411,9 @@ C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x8
 
 ../head/scanner.h:
 
-../src/debug.c:
-
 ../head/debug.h:
+
+../src/debug.c:
 
 ../src/value.c:
 
