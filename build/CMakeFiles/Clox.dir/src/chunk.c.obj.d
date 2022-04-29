@@ -22,4 +22,8 @@ CMakeFiles/Clox.dir/src/chunk.c.obj: \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/stdint.h \
  C:/Users/11577/Desktop/interpreter/head/value.h \
  C:/Users/11577/Desktop/interpreter/head/value.h \
- C:/Users/11577/Desktop/interpreter/head/memory.h
+ C:/Users/11577/Desktop/interpreter/head/memory.h \
+ C:/Users/11577/Desktop/interpreter/head/object.h \
+ C:/Users/11577/Desktop/interpreter/head/chunk.h \
+ C:/Users/11577/Desktop/interpreter/head/vm.h \
+ C:/Users/11577/Desktop/interpreter/head/table.h

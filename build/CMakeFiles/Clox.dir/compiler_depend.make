@@ -64,7 +64,11 @@ CMakeFiles/Clox.dir/src/chunk.c.obj: ../src/chunk.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdint.h \
   ../head/value.h \
   ../head/value.h \
-  ../head/memory.h
+  ../head/memory.h \
+  ../head/object.h \
+  ../head/chunk.h \
+  ../head/vm.h \
+  ../head/table.h
 
 CMakeFiles/Clox.dir/src/compile.c.obj: ../src/compile.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdio.h \
@@ -102,6 +106,7 @@ CMakeFiles/Clox.dir/src/compile.c.obj: ../src/compile.c \
   ../head/table.h \
   ../head/scanner.h \
   ../head/object.h \
+  ../head/memory.h \
   ../head/debug.h
 
 CMakeFiles/Clox.dir/src/debug.c.obj: ../src/debug.c \
@@ -154,9 +159,17 @@ CMakeFiles/Clox.dir/src/memory.c.obj: ../src/memory.c \
   ../head/object.h \
   ../head/chunk.h \
   ../head/value.h \
+  ../head/object.h \
   ../head/vm.h \
   ../head/table.h \
-  ../head/object.h
+  ../head/compile.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw_print_push.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+  ../head/debug.h
 
 CMakeFiles/Clox.dir/src/object.c.obj: ../src/object.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdio.h \
@@ -185,9 +198,9 @@ CMakeFiles/Clox.dir/src/object.c.obj: ../src/object.c \
   ../head/value.h \
   ../head/table.h \
   ../head/memory.h \
+  ../head/object.h \
   ../head/vm.h \
-  ../head/table.h \
-  ../head/object.h
+  ../head/table.h
 
 CMakeFiles/Clox.dir/src/scanner.c.obj: ../src/scanner.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdio.h \
@@ -239,6 +252,7 @@ CMakeFiles/Clox.dir/src/table.c.obj: ../src/table.c \
   ../head/object.h \
   ../head/chunk.h \
   ../head/value.h \
+  ../head/object.h \
   ../head/table.h \
   ../head/value.h
 
@@ -265,10 +279,11 @@ CMakeFiles/Clox.dir/src/value.c.obj: ../src/value.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stddef.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  ../head/value.h \
   ../head/object.h \
   ../head/chunk.h \
-  ../head/value.h
+  ../head/value.h \
+  ../head/value.h \
+  ../head/object.h
 
 CMakeFiles/Clox.dir/src/vm.c.obj: ../src/vm.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \

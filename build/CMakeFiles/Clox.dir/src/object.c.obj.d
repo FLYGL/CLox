@@ -26,6 +26,6 @@ CMakeFiles/Clox.dir/src/object.c.obj: \
  C:/Users/11577/Desktop/interpreter/head/value.h \
  C:/Users/11577/Desktop/interpreter/head/table.h \
  C:/Users/11577/Desktop/interpreter/head/memory.h \
+ C:/Users/11577/Desktop/interpreter/head/object.h \
  C:/Users/11577/Desktop/interpreter/head/vm.h \
- C:/Users/11577/Desktop/interpreter/head/table.h \
- C:/Users/11577/Desktop/interpreter/head/object.h
+ C:/Users/11577/Desktop/interpreter/head/table.h

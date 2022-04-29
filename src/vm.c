@@ -144,8 +144,8 @@ static bool isFalsey(Value value){
     return IS_NIL(value) || (IS_BOOL(value)&& !AS_BOOL(value));
 }
 static void concatenate(){
-    ObjString* bString = AS_STRING(pop());
-    ObjString* aString = AS_STRING(pop());
+    ObjString* bString = AS_STRING(peek(0));
+    ObjString* aString = AS_STRING(peek(1));
 
     int length = aString->length + bString->length;
     char* chars = ALLOCATE(char,length+1);
@@ -153,6 +153,8 @@ static void concatenate(){
     memcpy(chars+aString->length,bString->chars,bString->length);
     chars[length]='\0';
     ObjString* result = takeString(chars,length);
+    pop();
+    pop();
     push(OBJ_VAL(result));
 }
 void DumpStackContent(VM* vmInstance){
@@ -165,10 +167,16 @@ void DumpStackContent(VM* vmInstance){
     printf("\n");
 }
 void initVM(){
+    vm.bytesAllocated = 0;
+    vm.nextGC = 1024*1024;
+    vm.grayCount = 0;
+    vm.grayCapacity = 0;
+    vm.grayStack = NULL;
     resetStack();
     initTable(&vm.globals);
     initTable(&vm.strings);
     defineNative("clock",clockNative);
+
 }
 
 void freeVM(){

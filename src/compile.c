@@ -5,6 +5,7 @@
 #include "vm.h"
 #include "scanner.h"
 #include "object.h"
+#include "memory.h"
 #ifdef DEBUG_PRINT_CODE
 #include "debug.h"
 #endif
@@ -645,6 +646,13 @@ ObjFunction* compile(const char* source){
     return parser.hadError?NULL:function;
 }
 
+void markCompilerRoots(){
+    Compiler* compiler = current;
+    while(compiler != NULL){
+        markObject((Obj*)compiler->function);
+        compiler = compiler->enclosing;
+    }
+}
 
 ParseRule rules[] = {
     [TOKEN_LEFT_PAREN]    = {grouping, call,   PREC_CALL},
