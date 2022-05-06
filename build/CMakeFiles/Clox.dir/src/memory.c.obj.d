@@ -23,14 +23,7 @@ CMakeFiles/Clox.dir/src/memory.c.obj: \
  C:/Users/11577/Desktop/interpreter/head/object.h \
  C:/Users/11577/Desktop/interpreter/head/chunk.h \
  C:/Users/11577/Desktop/interpreter/head/value.h \
+ C:/Users/11577/Desktop/interpreter/head/table.h \
  C:/Users/11577/Desktop/interpreter/head/object.h \
  C:/Users/11577/Desktop/interpreter/head/vm.h \
- C:/Users/11577/Desktop/interpreter/head/table.h \
- C:/Users/11577/Desktop/interpreter/head/compile.h \
- C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/stdio.h \
- C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/_mingw_print_push.h \
- C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
- C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
- C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
- C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
- C:/Users/11577/Desktop/interpreter/head/debug.h
+ C:/Users/11577/Desktop/interpreter/head/compile.h

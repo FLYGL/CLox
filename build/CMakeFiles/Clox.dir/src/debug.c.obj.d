@@ -23,4 +23,5 @@ CMakeFiles/Clox.dir/src/debug.c.obj: \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/stdint.h \
  C:/Users/11577/Desktop/interpreter/head/value.h \
  C:/Users/11577/Desktop/interpreter/head/object.h \
+ C:/Users/11577/Desktop/interpreter/head/table.h \
  C:/Users/11577/Desktop/interpreter/head/value.h

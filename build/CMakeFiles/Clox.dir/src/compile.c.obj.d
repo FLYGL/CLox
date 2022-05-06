@@ -31,8 +31,8 @@ CMakeFiles/Clox.dir/src/compile.c.obj: \
  C:/Users/11577/Desktop/interpreter/head/object.h \
  C:/Users/11577/Desktop/interpreter/head/chunk.h \
  C:/Users/11577/Desktop/interpreter/head/value.h \
- C:/Users/11577/Desktop/interpreter/head/vm.h \
  C:/Users/11577/Desktop/interpreter/head/table.h \
+ C:/Users/11577/Desktop/interpreter/head/vm.h \
  C:/Users/11577/Desktop/interpreter/head/scanner.h \
  C:/Users/11577/Desktop/interpreter/head/object.h \
  C:/Users/11577/Desktop/interpreter/head/memory.h \
