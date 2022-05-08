@@ -414,7 +414,7 @@ static InterpretResult run(){
             }
             case OP_LOOP:{
                 uint16_t offset = READ_SHORT();
-                vm.ip-=offset;
+                frame->ip-=offset;
                 break;
             }
             case OP_CALL:{

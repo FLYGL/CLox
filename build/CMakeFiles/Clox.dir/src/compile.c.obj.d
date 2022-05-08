@@ -35,5 +35,4 @@ CMakeFiles/Clox.dir/src/compile.c.obj: \
  C:/Users/11577/Desktop/interpreter/head/vm.h \
  C:/Users/11577/Desktop/interpreter/head/scanner.h \
  C:/Users/11577/Desktop/interpreter/head/object.h \
- C:/Users/11577/Desktop/interpreter/head/memory.h \
- C:/Users/11577/Desktop/interpreter/head/debug.h
+ C:/Users/11577/Desktop/interpreter/head/memory.h

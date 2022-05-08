@@ -41,7 +41,7 @@ struct Obj {
     struct Obj* next;
 };
 
-typedef struct{
+typedef struct ObjUpvalue{
     Obj obj;
     Value* location;
     Value closed;

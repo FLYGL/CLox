@@ -19,12 +19,11 @@ void freeTable(Table* table){
     initTable(table);
 }
 static Entry* findEntry(Entry* entries,int capacity,ObjString* key){
-    uint32_t index = key->hash % capacity;
+    // uint32_t index = key->hash % capacity;
+    uint32_t index = key->hash&(capacity-1);
     Entry* tombstone = NULL;
     for(;;){
         Entry* entry = &entries[index];
-        //objString 内容比较？or 地址比较？
-        //这个漏洞 需要通过string internal
         if(entry->key == NULL){
             if(IS_NIL(entry->value)){
                 return tombstone != NULL ? tombstone : entry;
@@ -35,7 +34,7 @@ static Entry* findEntry(Entry* entries,int capacity,ObjString* key){
         else if(entry->key == key){
             return entry;
         }
-        index = (index+1)%capacity;
+        index = (index + 1) & (capacity - 1);
     }
 
 }
@@ -107,7 +106,8 @@ void tableAddAll(Table* from,Table* to){
 ObjString* tableFindString(Table* table,const char* chars,int length,uint32_t hash){
     if(table->count == 0) return NULL;
 
-    uint32_t index = hash%table->capacity;
+    uint32_t index = hash&(table->capacity-1);
+    // uint32_t index = hash%(table->capacity);
     for(;;){
         Entry* entry = &table->entries[index];
         if(entry->key == NULL){
@@ -119,7 +119,7 @@ ObjString* tableFindString(Table* table,const char* chars,int length,uint32_t ha
             return entry->key;
         }
 
-        index = (index + 1)%table->capacity;
+        index = (index + 1) & (table->capacity - 1);
     }
 }
 

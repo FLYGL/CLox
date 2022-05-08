@@ -63,6 +63,8 @@ CMakeFiles/Clox.dir/src/chunk.c.obj: ../src/chunk.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdint.h \
   ../head/value.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
   ../head/value.h \
   ../head/memory.h \
   ../head/object.h \
@@ -106,8 +108,7 @@ CMakeFiles/Clox.dir/src/compile.c.obj: ../src/compile.c \
   ../head/vm.h \
   ../head/scanner.h \
   ../head/object.h \
-  ../head/memory.h \
-  ../head/debug.h
+  ../head/memory.h
 
 CMakeFiles/Clox.dir/src/debug.c.obj: ../src/debug.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdio.h \
@@ -132,6 +133,8 @@ CMakeFiles/Clox.dir/src/debug.c.obj: ../src/debug.c \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdint.h \
   ../head/value.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
   ../head/object.h \
   ../head/table.h \
   ../head/value.h
@@ -160,6 +163,8 @@ CMakeFiles/Clox.dir/src/memory.c.obj: ../src/memory.c \
   ../head/object.h \
   ../head/chunk.h \
   ../head/value.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
   ../head/table.h \
   ../head/object.h \
   ../head/vm.h \
@@ -422,9 +427,9 @@ C:/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x8
 
 ../head/scanner.h:
 
-../head/debug.h:
-
 ../src/debug.c:
+
+../head/debug.h:
 
 ../src/value.c:
 
